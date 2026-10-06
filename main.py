@@ -19,6 +19,9 @@ def resolver_ruteo_wsn():
     # Forzamos al Gateway (nodo 0) a estar en el centro
     coords[0] = [35.0, 35.0]
 
+    for i in range(N):
+        print(f"Nodo {i} {'(Gateway)' if i == 0 else ''}: X = {coords[i][0]}, Y = {coords[i][1]}")
+
     # Calcular matriz de distancias
     dist = np.linalg.norm(coords[:, np.newaxis] - coords, axis=2)
     
