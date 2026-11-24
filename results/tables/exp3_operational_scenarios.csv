@@ -1,0 +1,7 @@
+escenario,descripcion,etiqueta_corta,seed_layout,gateway_x,gateway_y,K_max,bat_min,bat_max,milp_estado,milp_objetivo,milp_max_energia_uJ,milp_vida_util_ciclos,milp_cuello_botella,milp_fan_in_max,milp_saltos_max,milp_tiempo_s,milp_factible,greedy_objetivo,greedy_vida_util_ciclos,greedy_gap_pct,greedy_factible,sa_mejor_objetivo,sa_promedio_objetivo,sa_std_objetivo,sa_vida_util_ciclos,sa_mejor_gap_pct,sa_tiempo_promedio_s,sa_corridas_factibles
+A,"Escenario A: GW Centrado (45,45)","A: GW Centrado
+(K_max=5, B=1.0)",42,45.0,45.0,5,1.0,1.0,OPTIMAL,131.6982,131.6982,7593.12,13,1,2,7.7114,True,225.828656,4428.14,71.4744,True,131.6982,131.6982,0.0,7593.12,-0.0,0.145,5/5
+B,"Escenario B: GW Esquina (5,5)","B: GW Esquina
+(5, 5) | K_max=5",42,5.0,5.0,5,1.0,1.0,FEASIBLE,377.097132,377.097132,2651.84,11,2,5,29.5836,True,511.491559,1955.07,50.4788,True,377.097132,384.068141,15.58765,2651.84,10.9405,0.159,5/5
+C,"Escenario C: K_max=3 + Baterías [0.6, 1.0]","C: K_max=3
+B_i ∈ [0.6, 1.0]",42,45.0,45.0,3,0.6043,0.9842,OPTIMAL,165.622512,162.712873,6037.83,15,2,2,7.9848,True,381.41539,2621.81,130.292,True,165.622512,168.712516,6.90946,6037.83,0.0,0.1439,5/5

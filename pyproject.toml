@@ -1,10 +1,12 @@
 [project]
 name = "proyecto-optimizacion"
 version = "0.1.0"
-description = "Add your description here"
+description = "Enrutamiento energéticamente eficiente en Redes de Sensores Inalámbricos (WSN) - Entrega Final ELI148"
 readme = "README.md"
 authors = [
-    { name = "Terrapin", email = "freq.modulada@gmail.com" }
+  { name = "Terrapin", email = "freq.modulada@gmail.com" },
+  { name = "El-Ronin", email = "mfernandezv@usm.cl" }
+  { name = "Luis-Sarzuri", email = "lsarzuri@usm.cl" },
 ]
 requires-python = ">=3.11"
 dependencies = [
@@ -15,8 +17,11 @@ dependencies = [
 ]
 
 [project.scripts]
-proyecto-optimizacion = "proyecto_optimizacion:main"
+proyecto-optimizacion = "wsn.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.12.22,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "wsn"

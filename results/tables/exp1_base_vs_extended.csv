@@ -1,0 +1,5 @@
+metodo,modo,estado,objetivo_alpha,cota_inferior,mip_gap_pct,max_energia_uJ,total_energia_uJ,vida_util_ciclos,nodo_cuello_botella,fan_in_max,saltos_max,tiempo_s,nodos_bb,es_factible,errores
+MILP_SCIP,base,OPTIMAL,121.44,121.440000,0.0000,121.44,850.08,8234.52,4,1,2,0.0394,1,True,0
+MILP_SCIP,extended,OPTIMAL,94.09923,94.092365,0.0000,94.09923,801.371405,10627.08,4,1,2,0.2474,4,True,0
+Greedy_Balanceado,extended,HEURISTIC,105.756029,,12.3878,105.756029,768.476592,9455.73,12,1,2,0.000678,0,True,0
+Simulated_Annealing,extended,METAHEURISTIC,94.09923,,0.0,94.09923,801.371405,10627.08,4,1,2,0.1409,0,True,0
